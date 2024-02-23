@@ -1,0 +1,25 @@
+:root {
+    --extra-font: "Pacifico", cursive;
+}
+
+body {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    font-size: 1.5vw;
+}
+
+header {
+    background-color: whitesmoke;
+    margin-top: 5%;
+    font-size: 2vw;
+    font-family: var(--extra-font);
+    padding: 1%;
+    color: darkgreen;
+    opacity: 0.6;
+    text-align: center;
+    width: 100vw;
+}
